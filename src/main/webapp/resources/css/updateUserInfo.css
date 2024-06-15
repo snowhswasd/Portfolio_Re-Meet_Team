@@ -1,0 +1,102 @@
+.update_User_Info{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: none;
+    width: 287px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% ,0%);
+    background-color: white;
+    border: 5px solid rgb(204, 234, 221);
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 999;
+    display: fixed;
+}
+.update_logo{
+    width: 100%;
+    padding-bottom: 60%;
+    background: url(../img/logo/리밋로고.png)no-repeat center center /cover;
+}
+.update_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.update_div span{
+    font-weight: bold;
+    width: 92px;
+    height: 30px;
+    display: inline-block;
+}
+.update_opt{
+    width: 146.5px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(204, 234, 221);
+    box-sizing: border-box;
+    text-align: center;
+}
+.update_opt:focus{
+    outline: none;
+}
+.update_input{
+    width: 146.5px;
+    height: 30px;
+}
+.update_btn_box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.update_btn_box *{
+    width: 191px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(204, 234, 221);
+    height: 26px;
+    color: rgb(81, 91, 96);
+    border: none;
+}
+.update_close_btn,
+.update_submit_btn{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+}
+.update_close_btn:hover,
+.update_submit_btn:hover{
+    cursor: pointer;
+}
+.update_submit_btn:active{
+    background-color: rgba(204, 234, 221, 0.8);
+}
+input{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+}
+select{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+}
+.update_btn_box span:nth-child(3),
+.update_btn_box span:nth-child(4){
+    background-color: inherit;
+    /* display: none; */
+}
+.update_null{
+    display: none;
+}

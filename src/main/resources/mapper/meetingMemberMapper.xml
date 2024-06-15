@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- 현재 파일이 XML 파일이기 때문에 맨 위에 XML 선언이 온다 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/schema/mybatis-3-mapper.dtd"> <!-- 규칙을 정의한 DTD 선언 -->
+
+<mapper namespace="com.bitstudy.app.dao.meetingMemberMapper">
+
+
+    <!--11-1 댓글이랑 별점 달때 모임에 가입된 사람인지 체크 할때 사용-->
+    <select id="selectMember" parameterType="Meeting_memberDto" resultType="Meeting_memberDto">
+        select * from meeting_member
+        where id = #{id} and FK_M_seqno = #{FK_M_seqno}
+    </select>
+
+    <!--11-2 미팅 가입할때 정보 널어주기  이거 하려면 위에 쿼리문 한번 실행
+     이유는 이미 가입된 사람인지 체크하고 널어줘야하기떄문이야-->
+    <insert id="insertMember" parameterType="Meeting_memberDto">
+        insert into meeting_member
+        values (null, #{FK_M_seqno}, #{id})
+    </insert>
+
+
+    <!--14. 세션에서 받아온 아이디랑 모임 고유번호 보내서 모임 탈퇴하기 누르면 데이터베이스에서 삭제-->
+    <!--회원 탈퇴할때도 이거 돌려야함-->
+   <delete id="deleteMember" parameterType="Meeting_memberDto">
+       delete from meeting_member
+       where id = #{id} and FK_M_seqno = #{FK_M_seqno}
+   </delete>
+
+
+    <select id="selectMemberCount" parameterType="String" resultType="int">
+        select FK_M_seqno from meeting_member
+        where id = #{id}
+    </select>
+
+</mapper>

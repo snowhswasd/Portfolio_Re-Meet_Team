@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- 현재 파일이 XML 파일이기 때문에 맨 위에 XML 선언이 온다 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/schema/mybatis-3-mapper.dtd"> <!-- 규칙을 정의한 DTD 선언 -->
+
+<mapper namespace="com.bitstudy.app.dao.UserMapper">
+
+
+    <!--1. 사용자 (세션) 아이디 가져와서 사용자 정보 뽑아내는것-->
+    <select id="selectUser" parameterType="String" resultType="UserDto">
+        select * from user where id=#{id}
+    </select>
+
+    <!--   3. 로그인할때 아이디 패스워드 보내서 그 값이 있는지 없는지 확인해서 로그인 + 자동로그인 -->
+    <select id="selectLogin" parameterType="map" resultType="UserDto">
+        select * from user where id=#{id} and pw = #{pw}
+    </select>
+
+<!--    2. 회원가입용 -->
+    <insert id="insertUser" parameterType="UserDto">
+        insert into user values (null,#{id},#{pw},#{gender},#{FK_BC_cate},#{name},#{hopeLocal}, #{birth})
+    </insert>
+
+
+    <!--13. 마이페이지에서 회원정보 수정할때 그 페이지에서 정보 뽑아와서 여기로 보내주기 -->
+    <update id="updateUser" parameterType="UserDto">
+        update user
+        set pw=#{pw}, FK_BC_cate = #{FK_BC_cate},hopeLocal = #{hopeLocal}
+        where id=#{id}
+    </update>
+
+    <!--14. 세션아이디 받아와서 회원탈퇴-->
+    <delete id="deleteUser" parameterType="String">
+        delete from user where id=#{id}
+    </delete>
+
+</mapper>

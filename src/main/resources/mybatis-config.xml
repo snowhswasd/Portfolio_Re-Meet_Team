@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <!-- 아직 BoardDto 안만들거니까 잠시 주석 처리하기 -->
+        <!-- 여기는 별칭 정하는곳  boardMapper 에 resultType="BoardDto" 임  -->
+
+        <typeAlias alias="UserDto" type="com.bitstudy.app.domain.UserDto"/>
+        <typeAlias alias="StarDto" type="com.bitstudy.app.domain.StarDto"/>
+        <typeAlias alias="Small_cateDto" type="com.bitstudy.app.domain.Small_cateDto"/>
+        <typeAlias alias="Meeting_memberDto" type="com.bitstudy.app.domain.Meeting_memberDto"/>
+        <typeAlias alias="SearchDto" type="com.bitstudy.app.domain.SearchDto"/>
+        <typeAlias alias="MeetingDto" type="com.bitstudy.app.domain.MeetingDto"/>
+        <typeAlias alias="Meeting_detail_textDto" type="com.bitstudy.app.domain.Meeting_detail_textDto"/>
+        <typeAlias alias="Meeting_detail_imgDto" type="com.bitstudy.app.domain.Meeting_detail_imgDto"/>
+        <typeAlias alias="LocalDto" type="com.bitstudy.app.domain.LocalDto"/>
+        <typeAlias alias="HeartDto" type="com.bitstudy.app.domain.HeartDto"/>
+        <typeAlias alias="CommentDto" type="com.bitstudy.app.domain.CommentDto"/>
+        <typeAlias alias="Big_cateDto" type="com.bitstudy.app.domain.Big_cateDto"/>
+        <typeAlias alias="LoginDto" type="com.bitstudy.app.domain.LoginDto"/>
+    </typeAliases>
+</configuration>

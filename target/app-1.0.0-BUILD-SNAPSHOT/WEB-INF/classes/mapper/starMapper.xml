@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- 현재 파일이 XML 파일이기 때문에 맨 위에 XML 선언이 온다 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/schema/mybatis-3-mapper.dtd"> <!-- 규칙을 정의한 DTD 선언 -->
+
+
+<mapper namespace="com.bitstudy.app.dao.StarMapper">
+
+
+    <!--기본 deleteAll-->
+    <delete id="deleteAll">
+        truncate star
+    </delete>
+
+<!-- deleteEach - 별 취소 -->
+    <delete id="deleteEach" parameterType="map">
+        delete from star where FK_M_seqno=#{FK_M_seqno} and S_writer=#{S_writer}
+    </delete>
+
+
+    <!--7-4. 별점테이블 모임번호 그룹화해서 그 수 뽑아서 저장하고 거기있는 모임번호 별점(평균) 카운트 뽑아오기-->
+    <select id="starForUpdate" resultType="StarDto">
+        select FK_M_seqno, count(FK_M_seqno) as S_count, avg(S_point) as S_point_AVG
+        from star group by FK_M_seqno;
+    </select>
+
+
+    <select id="star" parameterType="int" resultType="StarDto">
+        select FK_M_seqno, count(FK_M_seqno) as S_count, avg(S_point) as S_point_AVG from star
+        where FK_M_seqno=#{FK_M_seqno}
+        group by FK_M_seqno;
+    </select>
+
+
+<!--   별 입력 이걸 meeting table에서 받아서 처리 할거임-->
+    <insert id="starInsert" parameterType="StarDto">
+        insert into star
+        values
+        (null, #{FK_M_seqno}, #{S_writer}, #{S_point})
+    </insert>
+
+
+<!--   별누른사람 체크 해줄려고 그별에 모임번화랑 유저id값 있냐 ? 물어보는 거임.-->
+    <select id="selectStarUser" parameterType="map" resultType="StarDto">
+        select * from star where FK_M_seqno=#{FK_M_seqno} and S_writer=#{S_writer}
+        limit 0,1
+    </select>
+
+<!--  별누른사람은 또 누르면 업데이트  -->
+    <update id="starUpdate" parameterType="StarDto">
+        update star set S_point=#{S_point}
+        where S_writer = #{S_writer} and FK_M_seqno=#{FK_M_seqno}
+    </update>
+
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

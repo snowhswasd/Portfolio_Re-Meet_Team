@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- 현재 파일이 XML 파일이기 때문에 맨 위에 XML 선언이 온다 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/schema/mybatis-3-mapper.dtd"> <!-- 규칙을 정의한 DTD 선언 -->
+
+<mapper namespace="com.bitstudy.app.dao.CommentMapper">
+
+
+    <!--10-3) 후기글 테이블 (모임번호) 보내주고 limit 1 걸어줘서 받아오기 (한개 받아오기)-->
+    <select id="commentLimitOne" parameterType="int" resultType="String">
+        select C_text from comment
+        where FK_M_seqno = #{FK_M_seqno}
+        limit 1
+    </select>
+
+    <!-- 33-1) 게시판용 - 특정 번째부터 n개 가져오기. 최신글 순으로 불러오기   -->
+    <select id="selectPage" parameterType="map" resultType="CommentDto">
+        select * from comment
+        where FK_M_seqno = #{FK_M_seqno}
+        order by C_reg_date desc, C_seqno desc
+    </select>
+
+
+    <!--33-2) 댓글 테이블 (select(count)) 모임번호 번호주고 그번호에있는 댓글 갯수 들고오기-->
+    <select id="commentCountAll" parameterType="int" resultType="int">
+        select count(*) from comment
+        where FK_M_seqno = #{FK_M_seqno}
+    </select>
+
+
+<!--    모든 후기 삭제-->
+    <delete id="commentDeleteAll">
+        truncate comment
+    </delete>
+
+
+<!--   33-3.  후기 작성자만 특정 동호회의 후기 삭제-->
+    <delete id="commentDelete" parameterType="map">
+        delete from comment where C_seqno = #{C_seqno} and C_writer = #{C_writer}
+    </delete>
+
+
+
+<!--   33-4 후기 등록-->
+    <insert id="insertComment" parameterType="CommentDto">
+        insert into comment
+        values
+        (null, #{FK_M_seqno}, #{C_writer}, #{C_text},now())
+    </insert>
+
+
+<!--  33-5. 수정 - 댓글 작성자만 수정 가능하게 하기 -->
+    <update id="commentUpdate" parameterType="CommentDto">
+        update cooment
+        set C_text=#{C_text}
+        where C_seqno=#{C_seqno} and C_writer=#{C_writer}
+    </update>
+
+
+</mapper>

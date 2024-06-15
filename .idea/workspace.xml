@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="app:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d14896a3-9ae9-4c5a-95a1-61d2ffd78825" name="Changes" comment="commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "snowhswasd"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/snowhswasd/re-meet.git",
+    "accountId": "caa65ab3-374e-466f-8545-49a1225abe1f"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2HdN0FxlwH44SKb8zYvuWMRKfj0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Ex00_설정.executor": "Run",
+    "JUnit.Big_cateDaoImplTest.executor": "Run",
+    "JUnit.CommentDaoImplTest.executor": "Run",
+    "JUnit.CommentDaoImplTest.insertComment.executor": "Run",
+    "JUnit.Ex01_BoardDaoImplTest.count.executor": "Run",
+    "JUnit.Ex01_BoardDaoImplTest.select.executor": "Run",
+    "JUnit.Ex03_BoardDaoImplTest.count.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.count.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.delete.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.deleteAll.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.increaseViewCount.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.insert.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.insert100.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.select.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.selectAll.executor": "Run",
+    "JUnit.Ex05_BoardDaoImplTest.update.executor": "Run",
+    "JUnit.Ex07_PageHandlerTest.test1.executor": "Run",
+    "JUnit.Ex07_PageHandlerTest.test2.executor": "Run",
+    "JUnit.Ex07_PageHandlerTest.test3.executor": "Run",
+    "JUnit.Ex07_PageHandlerTest.test4.executor": "Run",
+    "JUnit.Ex17_CommentDaoImplTest.count.executor": "Run",
+    "JUnit.Ex17_CommentDaoImplTest.delete.executor": "Run",
+    "JUnit.Ex17_CommentDaoImplTest.deleteAll.executor": "Run",
+    "JUnit.Ex17_CommentDaoImplTest.insert.executor": "Run",
+    "JUnit.Ex17_CommentDaoImplTest.insert100.executor": "Run",
+    "JUnit.Ex17_CommentDaoImplTest.selectAll.executor": "Run",
+    "JUnit.Ex17_CommentDaoImplTest.update.executor": "Run",
+    "JUnit.HeartDaoImplTest.executor": "Run",
+    "JUnit.HeartDaoImplTest.insertHeart.executor": "Run",
+    "JUnit.HeartDaoImplTest.selectHeart.executor": "Run",
+    "JUnit.HeartDaoImplTest.userHeartList.executor": "Run",
+    "JUnit.LocalDaoImplTest.executor": "Run",
+    "JUnit.LocalDaoImplTest.selecLocal.executor": "Run",
+    "JUnit.MeetingDaoImplTest.executor": "Run",
+    "JUnit.MeetingDaoImplTest.heartCountUpdate.executor": "Run",
+    "JUnit.MeetingDaoImplTest.insertMeeting.executor": "Run",
+    "JUnit.MeetingDaoImplTest.searchCount.executor": "Run",
+    "JUnit.MeetingDaoImplTest.selectDetailSide.executor": "Run",
+    "JUnit.MeetingDaoImplTest.selectHeartPoint.executor": "Run",
+    "JUnit.MeetingDaoImplTest.selectMeeting_seperate.executor": "Run",
+    "JUnit.MeetingDaoImplTest.selectNewDate.executor": "Run",
+    "JUnit.MeetingDaoImplTest.selectReview.executor": "Run",
+    "JUnit.MeetingDaoImplTest.selectStarPoint.executor": "Run",
+    "JUnit.MeetingDaoImplTest.starCountUpdate.executor": "Run",
+    "JUnit.MeetingDaoImplTest.testUpdate.executor": "Run",
+    "JUnit.Meeting_detail_imgDaoImplTest.executor": "Run",
+    "JUnit.Meeting_detail_imgDaoImplTest.insertImg.executor": "Run",
+    "JUnit.Meeting_detail_imgDaoImplTest.selectImg.executor": "Run",
+    "JUnit.Meeting_detail_textDaoImplTest.deleteText.executor": "Run",
+    "JUnit.Meeting_detail_textDaoImplTest.executor": "Run",
+    "JUnit.Meeting_detail_textDaoImplTest.insertText.executor": "Run",
+    "JUnit.Meeting_detail_textDaoImplTest.selectText.executor": "Run",
+    "JUnit.Meeting_detail_textDaoImplTest.updateText.executor": "Run",
+    "JUnit.Meeting_memberDaoImplTest.deleteMember.executor": "Run",
+    "JUnit.Meeting_memberDaoImplTest.executor": "Run",
+    "JUnit.Meeting_memberDaoImplTest.insertMember.executor": "Run",
+    "JUnit.Meeting_memberDaoImplTest.selectMember.executor": "Run",
+    "JUnit.Small_cateDaoImplTest.executor": "Run",
+    "JUnit.Small_cateDaoImplTest.select_smallCate.executor": "Run",
+    "JUnit.StarDaoImplTest.deleteEach.executor": "Run",
+    "JUnit.StarDaoImplTest.executor": "Run",
+    "JUnit.StarDaoImplTest.insert.executor": "Run",
+    "JUnit.StarDaoImplTest.selectStarUser.executor": "Run",
+    "JUnit.StarDaoImplTest.starForUpdate.executor": "Run",
+    "JUnit.StarDaoImplTest.starInsert.executor": "Run",
+    "JUnit.StarDaoImplTest.starUpdate.executor": "Run",
+    "JUnit.UserDaoImplTest.executor": "Run",
+    "JUnit.UserDaoImplTest.insertUser.executor": "Run",
+    "JUnit.UserDaoImplTest.selectLogin.executor": "Run",
+    "Maven.app [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 9.0.82.executor": "Debug",
+    "Tomcat Server.Tomcat 9.0.88.executor": "Run",
+    "Tomcat Server.boardList.jsp.executor": "Run",
+    "Tomcat Server.loginForm.jsp.executor": "Run",
+    "Tomcat Server.mainPage2.jsp.executor": "Run",
+    "Tomcat Server.myPage.jsp (1).executor": "Run",
+    "Tomcat Server.myPage.jsp.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/snowh/Desktop/team",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.gitlab.GitLabSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sungk\Desktop\team20240527\team20240527\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\user1\Desktop\ch3_게시판\board\src\main\resources\mapper" />
+      <recent name="C:\Users\user1\Desktop\ch3_게시판\board\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\user1\Desktop\ch3_게시판\board\src\main\webapp\resources\css" />
+      <recent name="C:\Users\user1\Desktop\ch3_게시판\board\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\나상민\OneDrive\바탕 화면\tp\team\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\나상민\OneDrive\바탕 화면\tp\team\src\main\java\com\bitstudy\app\service" />
+      <recent name="C:\Users\sungk\Desktop\team20240527\team20240527\src\test\java\com\bitstudy\app\dao" />
+      <recent name="C:\Users\sungk\Desktop\team20240527\team20240527\src\main\java\com\bitstudy\app\domain" />
+      <recent name="C:\Users\sungk\Desktop\team20240527\team20240527\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.bitstudy.app.dao" />
+      <recent name="com.bitstudy.app.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.bitstudy.app.dao" />
+      <recent name="com.bitstudy.app.domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bitstudy.app.controller" />
+      <recent name="com.bitstudy.app.dao" />
+      <recent name="com.bitstudy.app.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.88">
+    <configuration name="HeartDaoImplTest.insertHeart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bitstudy.app.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bitstudy.app.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.bitstudy.app.dao.HeartDaoImplTest" />
+      <option name="METHOD_NAME" value="insertHeart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingDaoImplTest.insertMeeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bitstudy.app.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bitstudy.app.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.bitstudy.app.dao.MeetingDaoImplTest" />
+      <option name="METHOD_NAME" value="insertMeeting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingDaoImplTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bitstudy.app.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bitstudy.app.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.bitstudy.app.dao.MeetingDaoImplTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meeting_detail_imgDaoImplTest.insertImg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bitstudy.app.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bitstudy.app.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.bitstudy.app.dao.Meeting_detail_imgDaoImplTest" />
+      <option name="METHOD_NAME" value="insertImg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Meeting_detail_textDaoImplTest.insertText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bitstudy.app.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bitstudy.app.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.bitstudy.app.dao.Meeting_detail_textDaoImplTest" />
+      <option name="METHOD_NAME" value="insertText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.88" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.88" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="app:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="37718c84-abba-4316-9719-1ba15c55fa7d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="14305" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="app:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HeartDaoImplTest.insertHeart" />
+      <item itemvalue="JUnit.MeetingDaoImplTest.insertMeeting" />
+      <item itemvalue="JUnit.Meeting_detail_imgDaoImplTest.insertImg" />
+      <item itemvalue="JUnit.Meeting_detail_textDaoImplTest.insertText" />
+      <item itemvalue="JUnit.MeetingDaoImplTest.testUpdate" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.88" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MeetingDaoImplTest.testUpdate" />
+        <item itemvalue="JUnit.MeetingDaoImplTest.insertMeeting" />
+        <item itemvalue="JUnit.Meeting_detail_textDaoImplTest.insertText" />
+        <item itemvalue="JUnit.Meeting_detail_imgDaoImplTest.insertImg" />
+        <item itemvalue="JUnit.HeartDaoImplTest.insertHeart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d14896a3-9ae9-4c5a-95a1-61d2ffd78825" name="Changes" comment="" />
+      <created>1668610776601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668610776601</updated>
+      <workItem from="1668610777951" duration="1565000" />
+      <workItem from="1715581526872" duration="6188000" />
+      <workItem from="1715588440657" duration="253000" />
+      <workItem from="1715588701416" duration="1230000" />
+      <workItem from="1715644900139" duration="776000" />
+      <workItem from="1715645688124" duration="253000" />
+      <workItem from="1715646070304" duration="21295000" />
+      <workItem from="1715673096378" duration="3407000" />
+      <workItem from="1715817341670" duration="25307000" />
+      <workItem from="1715903663669" duration="25614000" />
+      <workItem from="1716165274258" duration="17857000" />
+      <workItem from="1716249691118" duration="22994000" />
+      <workItem from="1716335017596" duration="5383000" />
+      <workItem from="1716344060625" duration="364000" />
+      <workItem from="1716344513890" duration="512000" />
+      <workItem from="1716345253339" duration="7960000" />
+      <workItem from="1716363437064" duration="3742000" />
+      <workItem from="1716372457384" duration="3177000" />
+      <workItem from="1716417205513" duration="152000" />
+      <workItem from="1716420057888" duration="10201000" />
+      <workItem from="1716453386817" duration="935000" />
+      <workItem from="1716458671930" duration="3584000" />
+      <workItem from="1716505922101" duration="5977000" />
+      <workItem from="1716520141227" duration="16927000" />
+      <workItem from="1716551903053" duration="3041000" />
+      <workItem from="1716557998173" duration="856000" />
+      <workItem from="1716560586830" duration="472000" />
+      <workItem from="1716561542118" duration="330000" />
+      <workItem from="1716561882765" duration="1654000" />
+      <workItem from="1716564144062" duration="5208000" />
+      <workItem from="1716571450279" duration="1014000" />
+      <workItem from="1716572536138" duration="1849000" />
+      <workItem from="1716601495058" duration="3017000" />
+      <workItem from="1716604898575" duration="1036000" />
+      <workItem from="1716606815164" duration="54000" />
+      <workItem from="1716607102758" duration="398000" />
+      <workItem from="1716611112821" duration="13911000" />
+      <workItem from="1716626028865" duration="3663000" />
+      <workItem from="1716629810158" duration="4576000" />
+      <workItem from="1716635482527" duration="145000" />
+      <workItem from="1716635863877" duration="417000" />
+      <workItem from="1716693870675" duration="63000" />
+      <workItem from="1716694004367" duration="8250000" />
+      <workItem from="1716704854218" duration="4498000" />
+      <workItem from="1716716636925" duration="3995000" />
+      <workItem from="1716720667945" duration="7163000" />
+      <workItem from="1716769152336" duration="1055000" />
+      <workItem from="1716776604513" duration="5738000" />
+      <workItem from="1716787270062" duration="5276000" />
+      <workItem from="1716793042315" duration="15921000" />
+      <workItem from="1716811743293" duration="136000" />
+      <workItem from="1716811900241" duration="9842000" />
+      <workItem from="1716855947609" duration="18871000" />
+      <workItem from="1716878807298" duration="12902000" />
+      <workItem from="1716896920298" duration="16244000" />
+      <workItem from="1716939690979" duration="29229000" />
+      <workItem from="1717028301015" duration="16477000" />
+      <workItem from="1717053152579" duration="10975000" />
+      <workItem from="1717064974224" duration="3641000" />
+      <workItem from="1717069256706" duration="1039000" />
+      <workItem from="1717079775539" duration="18601000" />
+      <workItem from="1717121567764" duration="2634000" />
+      <workItem from="1717124384575" duration="15475000" />
+      <workItem from="1717173510688" duration="7613000" />
+      <workItem from="1717214142459" duration="17254000" />
+      <workItem from="1717312678698" duration="1295000" />
+      <workItem from="1717373224232" duration="51000" />
+      <workItem from="1717373332417" duration="28763000" />
+      <workItem from="1717410371870" duration="901000" />
+      <workItem from="1717411354575" duration="373000" />
+      <workItem from="1717411751713" duration="7278000" />
+      <workItem from="1717425152739" duration="6668000" />
+      <workItem from="1717432013095" duration="2903000" />
+      <workItem from="1717460615847" duration="5039000" />
+      <workItem from="1717465704565" duration="4877000" />
+      <workItem from="1717471032448" duration="3434000" />
+      <workItem from="1717476558327" duration="6794000" />
+      <workItem from="1717494583958" duration="295000" />
+      <workItem from="1717495220785" duration="15069000" />
+      <workItem from="1717545592461" duration="1532000" />
+      <workItem from="1717852326295" duration="8018000" />
+      <workItem from="1717951428554" duration="1288000" />
+      <workItem from="1717974518819" duration="29000" />
+      <workItem from="1718336627488" duration="1307000" />
+      <workItem from="1718338035415" duration="2423000" />
+      <workItem from="1718439121635" duration="487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registerForm.jsp</url>
+          <line>45</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bitstudy/app/service/MeetingService.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bitstudy/app/dao/Meeting_memberDaoImplTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

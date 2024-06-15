@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- 현재 파일이 XML 파일이기 때문에 맨 위에 XML 선언이 온다 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/schema/mybatis-3-mapper.dtd"> <!-- 규칙을 정의한 DTD 선언 -->
+
+<mapper namespace="com.bitstudy.app.dao.MeetingDetail_textMapper">
+
+<!--   32. 모임 상세 정보 불러오기 -->
+    <select id="selectText" parameterType="int" resultType="Meeting_detail_textDto">
+        select * from meeting_detail_text where FK_M_seqno=#{FK_M_seqno}
+    </select>
+
+<!--    32.모임 상세 정보 입력하기 -->
+    <insert id="insertText" parameterType="Meeting_detail_textDto">
+        insert into meeting_detail_text values (null,#{FK_M_seqno},#{MDT_content},#{id})
+    </insert>
+
+
+    <!--32.모임 상세 정보 변경-->
+    <update id="updateText" parameterType="Meeting_detail_textDto">
+        update meeting_detail_text
+        set MDT_content=#{MDT_content}
+        where id = #{id} and FK_M_seqno=#{FK_M_seqno};
+    </update>
+
+    <!--32.모임 상세 정보 삭제-->
+    <delete id="deleteText" parameterType="Meeting_detail_textDto">
+        delete from meeting_detail_text where FK_M_seqno=#{FK_M_seqno} and id=#{id}
+    </delete>
+
+
+</mapper>
