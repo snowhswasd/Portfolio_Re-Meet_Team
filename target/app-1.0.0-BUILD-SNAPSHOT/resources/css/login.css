@@ -1,0 +1,168 @@
+* {
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+   padding: 0;
+}
+a{
+   text-decoration: none;
+   color: inherit;
+}
+
+/* 팝업창 ==================================================== */
+.popup{
+   width: 100%;
+   height: 100vh;
+   background-color: rgba(0, 0, 0,0.4);
+   position: relative;
+   z-index: 10;
+}
+.login_alert{
+   width: 270px;
+   height: 130px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 20px;
+   background-color: white;
+}
+.popup_box{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.pop_message span{
+   height: 60px;
+   line-height: 60px;
+   box-sizing: border-box;
+   padding-left: 10px;
+   font-weight: bold;
+   color: rgb(31, 40, 61);
+}
+.pop_message{
+   display: flex;
+}
+
+.message_icon_smile{
+   margin-top: 10px;
+   margin-left: 13px;
+   width: 50px;
+   height: 50px;
+   background: url(../img/loginSmile.png) no-repeat center center /contain;
+}
+.message_icon_cry{
+   margin-top: 10px;
+   margin-left: 13px;
+   width: 50px;
+   height: 50px;
+   background: url(../img/loginCry.png) no-repeat center center /contain;
+}
+.close_btn{
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+   width: 55px;
+   height: 35px;
+   border-radius: 10px;
+   border: 2px solid rgb(204, 234, 221);
+   background-color: rgba(204, 234, 221, 0.4);
+   box-sizing: border-box;
+   font-weight: bold;
+   text-align: center;
+   line-height: 31px;
+}
+.close_btn:hover{
+   cursor: pointer;
+   background-color: rgba(204, 234, 221, 0.7);
+}
+
+
+/* 로그인 ==================================================== */
+form {
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border: 4px solid rgb(204, 234, 221);
+   border-radius: 10px;
+}
+
+input {
+   width: 300px;
+   height: 40px;
+   border: 1px solid rgb(204, 234, 221);
+   border-radius: 5px;
+   padding: 0 10px;
+   margin-bottom: 10px;
+}
+
+span {
+   width: 300px;
+   height: 30px;
+   margin-top: 4px;
+}
+
+.submit_btn {
+   background-color: rgb(204, 234, 221);
+   color: white;
+   width: 300px;
+   height: 50px;
+   font-size: 17px;
+   border: none;
+   border-radius: 5px;
+   margin: 5px 0 10px 0;
+}
+
+.logo {
+background: url(../img/logo/리밋로고.png) no-repeat center center /contain;
+width: 300px;
+height: 200px;
+}
+
+.logo > a{
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+
+}
+
+.error{
+color: red;
+}
+.id_chk_box{
+   display: flex;
+   width: 300px;
+   height: 30px;
+   justify-content: center;
+   gap: 30px;
+}
+.id_remember,
+.auto_login{
+   display: flex;
+}
+#id_remember_btn,
+#auto_login_btn{
+   width: 17px;
+   height: 17px;
+}
+label{
+   line-height: 23.5px;
+   font-size: 14px;
+}
+
+.register_box{
+   margin-bottom: 20px;
+   font-size: 15px;
+}
+.register_btn{
+   color: blue;
+}
+.register_btn:hover{
+   cursor: pointer;
+}

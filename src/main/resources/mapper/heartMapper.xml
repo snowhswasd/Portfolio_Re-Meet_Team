@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- 현재 파일이 XML 파일이기 때문에 맨 위에 XML 선언이 온다 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/schema/mybatis-3-mapper.dtd"> <!-- 규칙을 정의한 DTD 선언 -->
+
+<mapper namespace="com.bitstudy.app.dao.HeartMapper">
+
+
+    <!---7-2 미팅의 하트 업데이트 하기 위해 뽑아 오는 쿼리문-->
+    <select id="heartForUpdate" resultType="HeartDto">
+        select FK_M_seqno, count(*) as H_count
+        from heart group by FK_M_seqno;
+    </select>
+
+    <!--하나만 들고오기.-->
+    <select id="heart" parameterType="int" resultType="HeartDto">
+        select FK_M_seqno, count(*) as H_count
+        from heart where FK_M_seqno = #{FK_M_seqno}
+        group by FK_M_seqno;
+    </select>
+
+
+    <!--7-3 이미 하트 입력한 사람 거르자-->
+    <select id="selectHeart" parameterType="HeartDto" resultType="HeartDto">
+        select * from heart
+        where H_writer = #{H_writer} and FK_M_seqno = #{FK_M_seqno}
+        limit 0 , 1
+    </select>
+
+
+    <!--11. 하트 누르기-->
+    <!--7-3 선행 필요-->
+    <insert id="insertHeart" parameterType="HeartDto">
+        insert into heart
+        values
+        (null,#{FK_M_seqno},#{H_writer})
+    </insert>
+
+    <!--14. 하트취소-->
+    <!--7-3 선행 필요-->
+    <delete id="deleteHeart" parameterType="HeartDto">
+        delete from heart
+        where H_writer=#{H_writer} and FK_M_seqno = #{FK_M_seqno}
+    </delete>
+
+
+    <!-- 접속한 아이디로 하트를 누른모임들은 하트가 빨간색으로 나와야함 -->
+    <select id="userHeartList" parameterType="String" resultType="int">
+        select FK_M_seqno from heart
+        where H_writer = #{H_writer}
+    </select>
+
+
+</mapper>

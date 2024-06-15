@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- 현재 파일이 XML 파일이기 때문에 맨 위에 XML 선언이 온다 -->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/schema/mybatis-3-mapper.dtd"> <!-- 규칙을 정의한 DTD 선언 -->
+
+<mapper namespace="com.bitstudy.app.dao.MeetingDetail_imgMapper">
+
+<!--    모임 이미지 불러오기 1장 링크만 뽑기 -->
+    <select id="selectImg" parameterType="int" resultType="String">
+        select MDI_image from meeting_detail_img where FK_M_seqno=#{FK_M_seqno}
+        limit 0, 1
+    </select>
+
+    <!--    모임 이미지 불러오기 1장 링크랑,모임번호 뽑기 -->
+    <select id="selectImg2" parameterType="int" resultType="Meeting_detail_imgDto">
+        select FK_M_seqno,MDI_image from meeting_detail_img
+        where FK_M_seqno=#{FK_M_seqno}
+        limit 0,1
+    </select>
+
+
+    <!--    모임 이미지 불러오기 상세페이지 -->
+    <select id="selectImgAll" parameterType="int" resultType="Meeting_detail_imgDto">
+        select * from meeting_detail_img where FK_M_seqno=#{FK_M_seqno}
+    </select>
+
+<!--    모임 이미지 입력하기 -->
+    <insert id="insertImg" parameterType="Meeting_detail_imgDto">
+        insert into meeting_detail_img values (null,#{FK_M_seqno},#{MDI_image})
+    </insert>
+
+<!--  이미지가 있는 모임 번호 뽑기  -->
+    <select id="selectImgNumber" resultType="int">
+        select FK_M_seqno from meeting_detail_img
+        group by FK_M_seqno;
+    </select>
+
+
+    <!--모임 이미지 변경-->
+<!--    <update id="updateImg" parameterType="Meeting_detail_imgDto">-->
+<!--        update meeting_detail_img-->
+<!--        set MDI_image=#{MDI_image}-->
+<!--        where id = #{id}-->
+<!--    </update>-->
+
+    <!--모임 이미지 삭제-->
+<!--    <delete id="deleteImg" parameterType="String">-->
+<!--        delete from meeting_detail_img where id=#{id}-->
+<!--    </delete>-->
+
+
+</mapper>
