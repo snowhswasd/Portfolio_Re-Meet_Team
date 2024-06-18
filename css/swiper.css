@@ -1,0 +1,322 @@
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: none;
+    opacity: 0.5;
+    padding: 15px 5px;
+    border-radius: 20px;
+    color: black !important;
+}
+.swiper .swiper-pagination-bullet {
+    border: 1px solid black;
+}
+.banner{
+    position: relative;
+}
+
+.banner_btn:focus{
+    outline: none;
+}
+.custom{
+    background-color: #fff;
+    position: static !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 0 !important;
+    opacity: 1;
+    padding: 0;
+    border-radius: 0;
+    color: black;
+    border: 1px solid black;
+}
+.swiper_btn_pos_box{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+    gap: 5px;
+}
+.swiper-pagination-bullet {
+    background: rgb(204, 234, 221) !important;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================================================ */
+/* 박스를 감싸고 있음 */
+.swiper_inner_box{
+    width: 100%;
+}
+/* 이미지를 감싸고 있는 박스 */
+.swiper_img_box {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 67.26%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.review_box{
+    padding-bottom: 100%;
+}
+/* 나오는 이미지 */
+.swiper-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    transition: 0.3s;
+}
+.banner_back{
+    width: 100%;
+    height: 320px !important;
+}
+
+.bb1{
+    background-color: rgb(255, 248, 230);
+}
+.bb2{
+    background-color: rgb(204, 234, 222);
+}
+.bb3{
+    background-color: rgb(255, 151, 64);
+}
+.bb4{
+    background-color: rgb(218, 244, 241);
+}
+
+.banner_img{
+    position: static;
+    right: 0;
+    margin: auto;
+    max-width: 1280px;
+}
+
+
+.content{
+    margin-top: 20px;
+    position: relative;
+}
+.content_title{
+    margin: 10px 0px;
+    /* display: inline; */
+}
+.content_title_box{
+    display: flex;
+    gap: 10px;
+}
+.rabbit_icon{
+    margin-top: 3px;
+    width: 45px;
+    height: 45px;
+    animation: moving 2s infinite linear;
+}
+.rabbit_1{
+    background: url(../img/rabbit/rabbit_1.png) no-repeat center center / cover;
+}
+.rabbit_2{
+    background: url(../img/rabbit/rabbit_2.png) no-repeat center center / cover;
+}
+.rabbit_3{
+    background: url(../img/rabbit/rabbit_3.png) no-repeat center center / cover;
+}
+.rabbit_4{
+    background: url(../img/rabbit/rabbit_4.png) no-repeat center center / cover;
+}
+@keyframes moving {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(30deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-30deg);}
+    100% {transform: rotate(0deg);}
+    
+}
+.swiper_img_box:hover .content_img{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.like_box{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+}
+.like_box:focus{
+    border: none;
+}
+.none_heart{
+    display: block;
+}
+.full_heart{
+    display: none;
+    /* fill: red; */
+}
+.heart_icon{
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    fill: red;
+}
+.swiper_img_text{
+    width: 100%;
+    padding: 5px 0px;
+}
+.addr_box{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    max-width: 150px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.addr_box span{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0px 7px;
+    color: gray;
+    font-weight: 600;
+}
+.img_text_top{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.img_cate_box{
+    display: flex;
+    gap:3px
+}
+.img_cate_big{
+    border: 2px solid rgb(255, 151, 64);
+    background-color: rgba(255, 151, 64, 0.2);
+    border-radius: 20px;
+    padding: 0px 10px;
+    color: gray;
+}
+.img_cate_small{
+    border: 2px solid rgb(204, 234, 221);
+    background-color: rgba(204, 234, 221, 0.3);
+    border-radius: 20px;
+    padding: 0px 10px;
+    color: gray;
+}
+.img_review{
+    display: flex;
+    gap: 10px;
+}
+.img_review_star{
+    display: flex;
+    gap: 3px;
+}
+.img_review_star span,
+.img_review_heart span{
+    font-size: 15px;
+    margin-top: 4px;
+}
+.img_review_heart{
+    display: flex;
+    gap: 3px;
+}
+.star_img{
+    fill: rgb(245, 245, 35);
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+.heart_img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    fill: red;
+    display: flex;
+}
+.img_text_title{
+    margin-top: 15px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 15px;
+    color: rgb(31, 40, 61);
+
+}
+
+.swiper-wrapper3{
+    box-sizing: border-box;
+
+    border-radius: 0;
+}
+.review_content_box{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 5px 8px 0px, rgba(0, 0, 0, 0.12) 0px 1px 14px 0px;
+    margin-bottom: 10px;
+}
+.review_box{
+    border-radius: 0;
+}
+.review_box:hover .content_img{
+    transform: scale(1);
+}
+.review_text_box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+}
+.review_text_title{
+    font-weight: bold;
+}
+.review_text_content{
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 14px;
+}
+.swiper a{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1200px) {
+    .banner_back{
+        height: 0 !important;
+        padding-bottom: 30%;
+    }
+}
+@media screen and (max-width:1080px) {
+    .img_text_top{
+        flex-direction: column;
+    }
+    .swiper_img_text{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width:480px) {
+    .swiper_btn_pos_box{
+        display: none;
+    }    
+}
