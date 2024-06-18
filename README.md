@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=Hello&fontSize=90&animation=fadeIn&fontAlignY=38&desc=KyungMo's%20GitHub%20Profile&descAlignY=51&descAlign=62)
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=Hello&fontSize=90&animation=fadeIn&fontAlignY=38&desc=SeungWoo's%20GitHub%20Profile&descAlignY=51&descAlign=62)
 
 
 # 🐰 Team_project : Re-meet
@@ -13,7 +13,7 @@
 + 성경모(팀장, 백엔드) : 로그인, 회원가입, 마이페이지, 동아리가입 페이지 구현
 + 조다영(팀원, 백엔드) : 로그인, 회원가입, 마이페이지, 동아리가입 페이지 구현
 + 나상민(팀원, 백엔드) : 메인페이지, 서치페이지, 상세페이지
-+ 하승우(팀원, 프론트엔드)
++ 하승우(팀원, 프론트엔드) 로그인 페이지, 회원가입 페이지, 메인 페이지(반응형), 상세 페이지(반응형), 검색 페이지(반응형), 마이 페이지(반응형) 구현 
 
 ## 📝 개발언어
 <div style="display:flex; flex-direction:column; align-items:flex-start;">
