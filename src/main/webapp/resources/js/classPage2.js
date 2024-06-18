@@ -116,3 +116,13 @@ const drawStar = (target) => {
     document.querySelector(`.star span`).style.width = `${target.value * 20}%`;
 }
 
+
+for(let i=0; i<2; i++){
+    start_score_give[i].addEventListener("click", function(){
+        star_box_pos.style.display="block"
+        blockpan1.style.display="block"
+        blockpan1.style.position="fixed"
+        blockpan1.style.top="0px"
+
+    })
+}

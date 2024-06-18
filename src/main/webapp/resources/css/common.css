@@ -441,6 +441,7 @@ header svg{
     border-bottom: 1px solid rgb(204, 234, 221);
     box-sizing: border-box;
     display: flex;
+    font-size: 15px;
 }
 
 .pan_icon{
@@ -626,6 +627,9 @@ header svg{
         text-align: center;
         margin-bottom: 5px;
     }
+    .sns_box{
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 480px) { 
     header{
@@ -647,9 +651,6 @@ header svg{
     .span_box_top{
         display: flex;
         flex-direction: column;
-    }
-    .sns_box{
-        justify-content: center;
     }
 
 }
